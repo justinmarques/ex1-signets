@@ -1,9 +1,15 @@
 import './Appli.scss';
+import Entete from './Entete.jsx';
+import ListeProfs from './ListeProfs';
+import PiedDePage from './PiedDePage';
 
 export default function Appli() {
+
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+        <Entete />
+        <ListeProfs />
+        <PiedDePage />
     </div>
   );
 }
